@@ -23,4 +23,12 @@ void WorkWithIntegers()
     
     Console.WriteLine(f);
     Console.WriteLine(g);
+    int x = 7;
+    int y = 4;
+    int z = 3;
+    int m = (x + y) / z;
+    int n = (x + y) % z;
+    Console.WriteLine($"quotient: {m}");
+    Console.WriteLine($"remainder: {n}");
+
 }
